@@ -7,10 +7,13 @@ This project focuses on analyzing and cleaning Baltimore City's 911 emergency re
 **Dataset**
 
 Dataset Name: Baltimore911.csv
-Source: Baltimore911 Dataset
-Size: 292,761 records, 16 attributes
-Data Processing & Cleaning
 
+Source: Baltimore911 
+
+Dataset Size: 292,761 records, 16 attributes
+
+**Data Processing & Cleaning
+**
 1. Initial Exploration
 Identified 16 attributes (columns) and 292,761 rows (instances).
 Conducted an initial statistical summary of discrete and numerical attributes.
@@ -18,8 +21,9 @@ Conducted an initial statistical summary of discrete and numerical attributes.
 Location 1 attribute had 100% missing values and was dropped.
 Rows with missing values in other attributes were removed.
 After cleaning, the dataset was reduced to 258,723 records for better analysis.
-Analysis & Insights
 
+**Analysis & Insights
+**
 1. Crime Type Variation Analysis
 Larceny is the most frequently occurring crime.
 Arson is the least frequent crime type in the dataset.
@@ -29,8 +33,10 @@ Month-to-Month Crime Distribution: Identifies seasonal variations in crime.
 Day-of-Week Crime Type Distribution:
 Crime types mapped across Monday to Sunday (0-6 on x-axis).
 Larceny is most common, peaking on Fridays.
-Dashboard Creation
 
+
+**Dashboard Creation
+**
 1. Static Dashboard
 Visualizes all crime types with frequency using different colors.
 Helps in quick pattern identification across different crime types.
